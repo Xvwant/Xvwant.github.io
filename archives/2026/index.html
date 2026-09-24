@@ -2590,7 +2590,7 @@ document.addEventListener('DOMContentLoaded', function () {
     root: "/",
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/image/2659360.svg","topic":"https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/10433048.png","project":"https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2779789.png","banner":"https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/banner/books.jpg","loading":"https://api.iconify.design/eos-icons:three-dots-loading.svg?color=%231cd0fd","image_onerror":"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2rem' height='2rem' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='%23F44336' d='M22 12.698c-.002 1.47-.013 2.718-.096 3.743c-.097 1.19-.296 2.184-.74 3.009a4.2 4.2 0 0 1-.73.983c-.833.833-1.893 1.21-3.237 1.39C15.884 22 14.2 22 12.053 22h-.106c-2.148 0-3.83 0-5.144-.177c-1.343-.18-2.404-.557-3.236-1.39c-.738-.738-1.12-1.656-1.322-2.795c-.2-1.12-.236-2.512-.243-4.241Q1.999 12.737 2 12v-.054c0-2.148 0-3.83.177-5.144c.18-1.343.557-2.404 1.39-3.236s1.893-1.21 3.236-1.39c1.168-.157 2.67-.175 4.499-.177a.697.697 0 1 1 0 1.396c-1.855.002-3.234.018-4.313.163c-1.189.16-1.906.464-2.436.994S3.72 5.8 3.56 6.99C3.397 8.2 3.395 9.788 3.395 12v.784l.932-.814a2.14 2.14 0 0 1 2.922.097l3.99 3.99a1.86 1.86 0 0 0 2.385.207l.278-.195a2.79 2.79 0 0 1 3.471.209l2.633 2.37c.265-.557.423-1.288.507-2.32c.079-.972.09-2.152.091-3.63a.698.698 0 0 1 1.396 0' opacity='.5'/%3E%3Cpath fill='%23F44336' fill-rule='evenodd' d='M17.5 11c-2.121 0-3.182 0-3.841-.659S13 8.621 13 6.5s0-3.182.659-3.841S15.379 2 17.5 2s3.182 0 3.841.659S22 4.379 22 6.5s0 3.182-.659 3.841S19.621 11 17.5 11m-1.47-7.03a.75.75 0 1 0-1.06 1.06l1.47 1.47l-1.47 1.47a.75.75 0 0 0 1.06 1.06l1.47-1.47l1.47 1.47a.75.75 0 1 0 1.06-1.06L18.56 6.5l1.47-1.47a.75.75 0 0 0-1.06-1.06L17.5 5.44z' clip-rule='evenodd'/%3E%3C/svg%3E"},
-    lastupdate: new Date(1790171740982),
+    lastupdate: new Date(1790262524458),
     scroll_behavior: "smooth",
     cdn: {
       jquery: "https://unpkg.com/jquery@3.7.1/dist/jquery.min.js",
@@ -2949,6 +2949,129 @@ document.addEventListener('DOMContentLoaded', function () {
 <!-- 文章预览卡片容器，使用schema.org的Article类型进行结构化数据标记 -->
 <div class="post post-v3 white-box reveal shadow floatable blur" itemscope itemtype="http://schema.org/Article">
   <!-- 标记文章的主要页面链接 -->
+  <link itemprop="mainEntityOfPage" href="https://xvwant.github.io/2026/09/24/LC209/">
+  
+  <!-- 隐藏的发布者信息，使用schema.org的Organization类型 -->
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="XWT&#39;s Blog">
+  </span>
+  <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="name" content="209.长度最小的子数组">
+    <meta itemprop="description" content="Welcome To My Blog">
+  </span>
+
+  <!-- 显示置顶图标（如果计算得出需要显示） -->
+  
+  
+  <!-- 显示文章头图（如果存在） -->
+  
+    <!-- 如果没有头图，使用主题配置的默认图片作为结构化数据 -->
+    <span hidden>
+      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+    </span>
+  
+
+  <!-- 一般场景 -->
+  
+    <!-- 文章标题区域，使用schema.org的name和headline属性 -->
+    
+      <h2 class="article-title" itemprop="name headline">
+        <a href="/2026/09/24/LC209/" itemprop="url">
+          209.长度最小的子数组
+        </a>
+      </h2>
+    
+    <!-- 文章摘要/描述区域，使用schema.org的articleBody属性 -->
+    <div class="md article-desc" itemprop="articleBody">
+      
+        <!-- 若既没有摘要也没有描述，则使用文章内容 -->
+        
+          <!-- 主题启用自动摘要时，显示截断后的内容（200字符） -->
+          209.长度最小的子数组题目描述
+给定一个含有 n 个正整数的数组和一个正整数 target 。找出该数组中满足其总和大于等于 target 的长度最小的 子数组 [numsl, numsl+1, …, numsr-1, numsr] ，并返回其长度。如果不存在符合条件的子数组，返回 0 。示例 1：输入：target &#x3D; 7, nums &#x3D; [2,3,1,2,4,3]输...
+        
+      
+    </div>
+    
+    <!-- 元信息区域（作者、日期、分类、标签等），仅在需要显示其中至少一项时才渲染 -->
+    
+      <div class="meta-v3" line_style='solid'>
+        <div>
+          <!-- 显示作者信息（如果主题设置启用） -->
+          
+            <!-- 作者结构化数据，使用schema.org的Person类型 -->
+            <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/apple-touch-icon.png">
+              <meta itemprop="name" content="请设置文章作者">
+              <meta itemprop="url" content="/">
+            </span>
+
+          
+          <!-- 显示文章更新时间，使用schema.org的dateModified属性 -->
+          <time class="update-time" itemprop="dateModified" 
+                datetime="2026-09-24T20:39:10+08:00" 
+                title="2026年9月24日">
+            2026-09-24
+          </time>
+          
+          <!-- 显示文章分类（如果需要显示） -->
+          
+            <span class="dot"></span>
+            <a class="category-link" href="/categories/%E7%AE%97%E6%B3%95%E5%88%B7%E9%A2%98/">算法刷题</a>
+            
+            <!-- 分类的结构化数据 -->
+            
+              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                <a href="/categories/%E7%AE%97%E6%B3%95%E5%88%B7%E9%A2%98/" itemprop="url"><span itemprop="name">算法刷题</span></a>
+              </span>
+            
+          
+          
+          <!-- 显示文章标签（如果需要显示） -->
+          
+            <span class="dot"></span>
+            <a class="category-link" href="/tags/%E5%8F%8C%E6%8C%87%E9%92%88/">双指针</a><span class="sep"></span><a class="category-link" href="/tags/%E5%BF%AB%E6%85%A2%E6%8C%87%E9%92%88/">快慢指针</a><span class="sep"></span><a class="category-link" href="/tags/%E6%95%B0%E7%BB%84/">数组</a>
+            
+            <!-- 标签的结构化数据 -->
+            
+              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                <a href="/tags/%E6%95%B0%E7%BB%84/" itemprop="url"><span itemprop="name">数组</span></a>
+              </span>
+            
+              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                <a href="/tags/%E5%8F%8C%E6%8C%87%E9%92%88/" itemprop="url"><span itemprop="name">双指针</span></a>
+              </span>
+            
+              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                <a href="/tags/%E5%BF%AB%E6%85%A2%E6%8C%87%E9%92%88/" itemprop="url"><span itemprop="name">快慢指针</span></a>
+              </span>
+            
+          
+        </div>
+        
+        <!-- 阅读更多按钮 -->
+        
+          <div>
+            <a class='readmore' href='/2026/09/24/LC209/'>
+              阅读全文
+            </a>
+          </div>
+        
+      </div>
+    
+  
+</div>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            
+
+<!-- 文章预览卡片容器，使用schema.org的Article类型进行结构化数据标记 -->
+<div class="post post-v3 white-box reveal shadow floatable blur" itemscope itemtype="http://schema.org/Article">
+  <!-- 标记文章的主要页面链接 -->
   <link itemprop="mainEntityOfPage" href="https://xvwant.github.io/2026/09/23/LC167/">
   
   <!-- 隐藏的发布者信息，使用schema.org的Organization类型 -->
@@ -3009,9 +3132,9 @@ document.addEventListener('DOMContentLoaded', function () {
           
           <!-- 显示文章更新时间，使用schema.org的dateModified属性 -->
           <time class="update-time" itemprop="dateModified" 
-                datetime="2026-09-23T13:39:05+08:00" 
-                title="2026年9月23日">
-            2026-09-23
+                datetime="2026-09-24T21:51:10+08:00" 
+                title="2026年9月24日">
+            2026-09-24
           </time>
           
           <!-- 显示文章分类（如果需要显示） -->
@@ -3434,6 +3557,111 @@ document.addEventListener('DOMContentLoaded', function () {
 <!-- 文章预览卡片容器，使用schema.org的Article类型进行结构化数据标记 -->
 <div class="post post-v3 white-box reveal shadow floatable blur" itemscope itemtype="http://schema.org/Article">
   <!-- 标记文章的主要页面链接 -->
+  <link itemprop="mainEntityOfPage" href="https://xvwant.github.io/2026/09/23/SWPU2020套娃/">
+  
+  <!-- 隐藏的发布者信息，使用schema.org的Organization类型 -->
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="XWT&#39;s Blog">
+  </span>
+  <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="name" content="SWPU2020套娃">
+    <meta itemprop="description" content="Welcome To My Blog">
+  </span>
+
+  <!-- 显示置顶图标（如果计算得出需要显示） -->
+  
+  
+  <!-- 显示文章头图（如果存在） -->
+  
+    <!-- 如果没有头图，使用主题配置的默认图片作为结构化数据 -->
+    <span hidden>
+      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+    </span>
+  
+
+  <!-- 一般场景 -->
+  
+    <!-- 文章标题区域，使用schema.org的name和headline属性 -->
+    
+      <h2 class="article-title" itemprop="name headline">
+        <a href="/2026/09/23/SWPU2020%E5%A5%97%E5%A8%83/" itemprop="url">
+          SWPU2020套娃
+        </a>
+      </h2>
+    
+    <!-- 文章摘要/描述区域，使用schema.org的articleBody属性 -->
+    <div class="md article-desc" itemprop="articleBody">
+      
+        <!-- 若既没有摘要也没有描述，则使用文章内容 -->
+        
+          <!-- 主题启用自动摘要时，显示截断后的内容（200字符） -->
+          SWPU2020套娃解题过程下载附件，后缀是xlsx，但是打不开，用HxD查看文件开头就看到是zip压缩包文件，直接修改后缀为zip
+解压又是相同套路,同时给了一个txt文件，内容如下：U2FsdGVkX19uI2lzmxYrQ9mc16y7la7qc7VTS8gLaUKa49gzXPclxRXVsRJxWz/p解压swpu找到两个文件：easyrc4.xls和RC4key.zipRC4ke...
+        
+      
+    </div>
+    
+    <!-- 元信息区域（作者、日期、分类、标签等），仅在需要显示其中至少一项时才渲染 -->
+    
+      <div class="meta-v3" line_style='solid'>
+        <div>
+          <!-- 显示作者信息（如果主题设置启用） -->
+          
+            <!-- 作者结构化数据，使用schema.org的Person类型 -->
+            <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/apple-touch-icon.png">
+              <meta itemprop="name" content="请设置文章作者">
+              <meta itemprop="url" content="/">
+            </span>
+
+          
+          <!-- 显示文章更新时间，使用schema.org的dateModified属性 -->
+          <time class="update-time" itemprop="dateModified" 
+                datetime="2026-09-24T23:08:04+08:00" 
+                title="2026年9月24日">
+            2026-09-24
+          </time>
+          
+          <!-- 显示文章分类（如果需要显示） -->
+          
+            <span class="dot"></span>
+            <a class="category-link" href="/categories/Misc/">Misc</a>
+            
+            <!-- 分类的结构化数据 -->
+            
+              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                <a href="/categories/Misc/" itemprop="url"><span itemprop="name">Misc</span></a>
+              </span>
+            
+          
+          
+          <!-- 显示文章标签（如果需要显示） -->
+          
+        </div>
+        
+        <!-- 阅读更多按钮 -->
+        
+          <div>
+            <a class='readmore' href='/2026/09/23/SWPU2020%E5%A5%97%E5%A8%83/'>
+              阅读全文
+            </a>
+          </div>
+        
+      </div>
+    
+  
+</div>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            
+
+<!-- 文章预览卡片容器，使用schema.org的Article类型进行结构化数据标记 -->
+<div class="post post-v3 white-box reveal shadow floatable blur" itemscope itemtype="http://schema.org/Article">
+  <!-- 标记文章的主要页面链接 -->
   <link itemprop="mainEntityOfPage" href="https://xvwant.github.io/2026/09/22/第五空间2021WebFTP/">
   
   <!-- 隐藏的发布者信息，使用schema.org的Organization类型 -->
@@ -3588,8 +3816,11 @@ FTp指文本传输协议，是计算机网络中用来在客户端和服务器�
         <!-- 若既没有摘要也没有描述，则使用文章内容 -->
         
           <!-- 主题启用自动摘要时，显示截断后的内容（200字符） -->
-          给你两个整数 num1 和 num2，返回这两个整数的和。
-示例 1：输入：num1 &#x3D; 12, num2 &#x3D; 5输出：17解释：num1 是 12，num2 是 5 ，它们的和是 12 + 5 &#x3D; 17 ，因此返回 17 。示例 2：输入：num1 &#x3D; -10, num2 &#x3D; 4输出：-6解释：num1 + num2 &#x3D; -6 ，...
+          2235.两整数相加题目描述
+给你两个整数 num1 和 num2，返回这两个整数的和。
+
+
+示例 1：输入：num1 &#x3D; 12, num2 &#x3D; 5输出：17解释：num1 是 12，num2 是 5 ，它们的和是 12 + 5 &#x3D; 17 ，因此返回 17 。示例 2：输入：num1 &#x3D; -10, num2 &#x3D; 4输出：-6解释：num1 +...
         
       
     </div>
@@ -3610,9 +3841,9 @@ FTp指文本传输协议，是计算机网络中用来在客户端和服务器�
           
           <!-- 显示文章更新时间，使用schema.org的dateModified属性 -->
           <time class="update-time" itemprop="dateModified" 
-                datetime="2026-09-23T21:20:09+08:00" 
-                title="2026年9月23日">
-            2026-09-23
+                datetime="2026-09-24T21:51:08+08:00" 
+                title="2026年9月24日">
+            2026-09-24
           </time>
           
           <!-- 显示文章分类（如果需要显示） -->
@@ -3676,7 +3907,7 @@ FTp指文本传输协议，是计算机网络中用来在客户端和服务器�
     <meta itemprop="name" content="XWT&#39;s Blog">
   </span>
   <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="name" content="两数之和">
+    <meta itemprop="name" content="1.两数之和">
     <meta itemprop="description" content="Welcome To My Blog">
   </span>
 
@@ -3697,7 +3928,7 @@ FTp指文本传输协议，是计算机网络中用来在客户端和服务器�
     
       <h2 class="article-title" itemprop="name headline">
         <a href="/2026/09/22/LC1/" itemprop="url">
-          两数之和
+          1.两数之和
         </a>
       </h2>
     
@@ -3707,9 +3938,11 @@ FTp指文本传输协议，是计算机网络中用来在客户端和服务器�
         <!-- 若既没有摘要也没有描述，则使用文章内容 -->
         
           <!-- 主题启用自动摘要时，显示截断后的内容（200字符） -->
-          两数之和题目描述给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个 整数，并返回它们的数组下标。你可以假设每种输入只会对应一个答案，并且你不能使用两次相同的元素。你可以按任意顺序返回答案。
+          两数之和题目描述
+给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个 整数，并返回它们的数组下标。你可以假设每种输入只会对应一个答案，并且你不能使用两次相同的元素。你可以按任意顺序返回答案。
+
 示例 1：
-输入：nums &#x3D; [2,7,11,15], target &#x3D; 9输出：[0,1]解释：因为 nums[...
+输入：nums &#x3D; [2,7,11,15], target &#x3D; 9输出：[0,1]解释：因为 num...
         
       
     </div>
@@ -3730,9 +3963,9 @@ FTp指文本传输协议，是计算机网络中用来在客户端和服务器�
           
           <!-- 显示文章更新时间，使用schema.org的dateModified属性 -->
           <time class="update-time" itemprop="dateModified" 
-                datetime="2026-09-23T13:23:23+08:00" 
-                title="2026年9月23日">
-            2026-09-23
+                datetime="2026-09-24T21:51:04+08:00" 
+                title="2026年9月24日">
+            2026-09-24
           </time>
           
           <!-- 显示文章分类（如果需要显示） -->
@@ -3912,245 +4145,6 @@ FTp指文本传输协议，是计算机网络中用来在客户端和服务器�
           </div>
         
       
-        
-          <div class='post-wrapper'>
-            
-
-<!-- 文章预览卡片容器，使用schema.org的Article类型进行结构化数据标记 -->
-<div class="post post-v3 white-box reveal shadow floatable blur" itemscope itemtype="http://schema.org/Article">
-  <!-- 标记文章的主要页面链接 -->
-  <link itemprop="mainEntityOfPage" href="https://xvwant.github.io/2026/09/21/SWPUCTF 2021新生赛babyrce/">
-  
-  <!-- 隐藏的发布者信息，使用schema.org的Organization类型 -->
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="XWT&#39;s Blog">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="name" content="SWPUCTF 2021 新生赛babyrce">
-    <meta itemprop="description" content="Welcome To My Blog">
-  </span>
-
-  <!-- 显示置顶图标（如果计算得出需要显示） -->
-  
-  
-  <!-- 显示文章头图（如果存在） -->
-  
-    <!-- 如果没有头图，使用主题配置的默认图片作为结构化数据 -->
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
-  
-
-  <!-- 一般场景 -->
-  
-    <!-- 文章标题区域，使用schema.org的name和headline属性 -->
-    
-      <h2 class="article-title" itemprop="name headline">
-        <a href="/2026/09/21/SWPUCTF%202021%E6%96%B0%E7%94%9F%E8%B5%9Bbabyrce/" itemprop="url">
-          SWPUCTF 2021 新生赛babyrce
-        </a>
-      </h2>
-    
-    <!-- 文章摘要/描述区域，使用schema.org的articleBody属性 -->
-    <div class="md article-desc" itemprop="articleBody">
-      
-        <!-- 若既没有摘要也没有描述，则使用文章内容 -->
-        
-          <!-- 主题启用自动摘要时，显示截断后的内容（200字符） -->
-          SWPUCTF 2021 新生赛babyrce地址 https://www.nssctf.cn/problem/425
-初见rce-&gt;远程代码执行漏洞
-解题过程打开靶机后直接看到php代码
-1234567891011&lt;?phperror_reporting(0);header(&quot;Content-Type:text/html;charset=utf-8&quot;);hi...
-        
-      
-    </div>
-    
-    <!-- 元信息区域（作者、日期、分类、标签等），仅在需要显示其中至少一项时才渲染 -->
-    
-      <div class="meta-v3" line_style='solid'>
-        <div>
-          <!-- 显示作者信息（如果主题设置启用） -->
-          
-            <!-- 作者结构化数据，使用schema.org的Person类型 -->
-            <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/apple-touch-icon.png">
-              <meta itemprop="name" content="请设置文章作者">
-              <meta itemprop="url" content="/">
-            </span>
-
-          
-          <!-- 显示文章更新时间，使用schema.org的dateModified属性 -->
-          <time class="update-time" itemprop="dateModified" 
-                datetime="2026-09-23T21:20:10+08:00" 
-                title="2026年9月23日">
-            2026-09-23
-          </time>
-          
-          <!-- 显示文章分类（如果需要显示） -->
-          
-            <span class="dot"></span>
-            <a class="category-link" href="/categories/Web/">Web</a>
-            
-            <!-- 分类的结构化数据 -->
-            
-              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                <a href="/categories/Web/" itemprop="url"><span itemprop="name">Web</span></a>
-              </span>
-            
-          
-          
-          <!-- 显示文章标签（如果需要显示） -->
-          
-            <span class="dot"></span>
-            <a class="category-link" href="/tags/Web/">Web</a><span class="sep"></span><a class="category-link" href="/tags/php/">php</a>
-            
-            <!-- 标签的结构化数据 -->
-            
-              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                <a href="/tags/Web/" itemprop="url"><span itemprop="name">Web</span></a>
-              </span>
-            
-              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                <a href="/tags/php/" itemprop="url"><span itemprop="name">php</span></a>
-              </span>
-            
-          
-        </div>
-        
-        <!-- 阅读更多按钮 -->
-        
-          <div>
-            <a class='readmore' href='/2026/09/21/SWPUCTF%202021%E6%96%B0%E7%94%9F%E8%B5%9Bbabyrce/'>
-              阅读全文
-            </a>
-          </div>
-        
-      </div>
-    
-  
-</div>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            
-
-<!-- 文章预览卡片容器，使用schema.org的Article类型进行结构化数据标记 -->
-<div class="post post-v3 white-box reveal shadow floatable blur" itemscope itemtype="http://schema.org/Article">
-  <!-- 标记文章的主要页面链接 -->
-  <link itemprop="mainEntityOfPage" href="https://xvwant.github.io/2026/09/20/SWPUCTF2021新生赛_include/">
-  
-  <!-- 隐藏的发布者信息，使用schema.org的Organization类型 -->
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="XWT&#39;s Blog">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="name" content="SWPUCTF 2021 新生赛 include">
-    <meta itemprop="description" content="Welcome To My Blog">
-  </span>
-
-  <!-- 显示置顶图标（如果计算得出需要显示） -->
-  
-  
-  <!-- 显示文章头图（如果存在） -->
-  
-    <!-- 如果没有头图，使用主题配置的默认图片作为结构化数据 -->
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
-  
-
-  <!-- 一般场景 -->
-  
-    <!-- 文章标题区域，使用schema.org的name和headline属性 -->
-    
-      <h2 class="article-title" itemprop="name headline">
-        <a href="/2026/09/20/SWPUCTF2021%E6%96%B0%E7%94%9F%E8%B5%9B_include/" itemprop="url">
-          SWPUCTF 2021 新生赛 include
-        </a>
-      </h2>
-    
-    <!-- 文章摘要/描述区域，使用schema.org的articleBody属性 -->
-    <div class="md article-desc" itemprop="articleBody">
-      
-        <!-- 若既没有摘要也没有描述，则使用文章内容 -->
-        
-          <!-- 主题启用自动摘要时，显示截断后的内容（200字符） -->
-          SWPUCTF 2021 新生赛 include初见include ？
-解题过程探索信息打开靶机显示文字：传一个file试试上网查些资料： PHP的include函数是能够把另一个PHP文件的代码，嵌入到当前位置执行语法：include &#39;file.php&#39; ;
-
-
-前置知识：PHP 伪协议与 php:&#x2F;&#x2F;filter（解题的钥匙）PHP 提供了一系列“伪...
-        
-      
-    </div>
-    
-    <!-- 元信息区域（作者、日期、分类、标签等），仅在需要显示其中至少一项时才渲染 -->
-    
-      <div class="meta-v3" line_style='solid'>
-        <div>
-          <!-- 显示作者信息（如果主题设置启用） -->
-          
-            <!-- 作者结构化数据，使用schema.org的Person类型 -->
-            <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/apple-touch-icon.png">
-              <meta itemprop="name" content="请设置文章作者">
-              <meta itemprop="url" content="/">
-            </span>
-
-          
-          <!-- 显示文章更新时间，使用schema.org的dateModified属性 -->
-          <time class="update-time" itemprop="dateModified" 
-                datetime="2026-09-21T12:15:10+08:00" 
-                title="2026年9月21日">
-            2026-09-21
-          </time>
-          
-          <!-- 显示文章分类（如果需要显示） -->
-          
-            <span class="dot"></span>
-            <a class="category-link" href="/categories/Web/">Web</a>
-            
-            <!-- 分类的结构化数据 -->
-            
-              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                <a href="/categories/Web/" itemprop="url"><span itemprop="name">Web</span></a>
-              </span>
-            
-          
-          
-          <!-- 显示文章标签（如果需要显示） -->
-          
-            <span class="dot"></span>
-            <a class="category-link" href="/tags/Web/">Web</a>
-            
-            <!-- 标签的结构化数据 -->
-            
-              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                <a href="/tags/Web/" itemprop="url"><span itemprop="name">Web</span></a>
-              </span>
-            
-          
-        </div>
-        
-        <!-- 阅读更多按钮 -->
-        
-          <div>
-            <a class='readmore' href='/2026/09/20/SWPUCTF2021%E6%96%B0%E7%94%9F%E8%B5%9B_include/'>
-              阅读全文
-            </a>
-          </div>
-        
-      </div>
-    
-  
-</div>
-
-          </div>
-        
-      
     
   </section>
   
@@ -4194,7 +4188,7 @@ FTp指文本传输协议，是计算机网络中用来在客户端和服务器�
 
 
   <div class='content'>
-    <widget class="widget-wrapper recent post-list"><div class="widget-body fs14"><a class="item title" href="/2026/09/23/NISACTF2022huaji%EF%BC%9F/"><span class="title">NISACTF2022huaji？</span></a><a class="item title" href="/2026/09/23/SWPUCTF2021%E6%96%B0%E7%94%9F%E8%B5%9Beasyrce/"><span class="title">SWPUCTF2021新生赛easyrce</span></a><a class="item title" href="/2026/09/21/SWPUCTF%202021%E6%96%B0%E7%94%9F%E8%B5%9Bbabyrce/"><span class="title">SWPUCTF 2021 新生赛babyrce</span></a><a class="item title" href="/2026/09/22/LC2235/"><span class="title">2235.两整数相加</span></a><a class="item title" href="/2026/09/23/%E9%99%87%E5%89%91%E6%9D%AF2021webshell/"><span class="title">陇剑杯2021webshell</span></a><a class="item title" href="/2026/09/06/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"><span class="title">第一篇博客</span></a><a class="item title" href="/2026/09/23/LC167/"><span class="title">167. 两数之和 II - 输入有序数组</span></a><a class="item title" href="/2026/09/22/LC1/"><span class="title">两数之和</span></a><a class="item title" href="/2026/09/22/%E7%AC%AC%E4%BA%94%E7%A9%BA%E9%97%B42021WebFTP/"><span class="title">第五空间2021WebFTP</span></a><a class="item title" href="/2026/09/21/SWPUCTF2021%E6%96%B0%E7%94%9F%E8%B5%9Beasy_sql/"><span class="title">SWPUCTF 2021 新生赛]easy_sql</span></a></div></widget>
+    <widget class="widget-wrapper recent post-list"><div class="widget-body fs14"><a class="item title" href="/2026/09/23/SWPU2020%E5%A5%97%E5%A8%83/"><span class="title">SWPU2020套娃</span></a><a class="item title" href="/2026/09/23/LC167/"><span class="title">167. 两数之和 II - 输入有序数组</span></a><a class="item title" href="/2026/09/22/LC2235/"><span class="title">2235.两整数相加</span></a><a class="item title" href="/2026/09/22/LC1/"><span class="title">1.两数之和</span></a><a class="item title" href="/2026/09/24/LC209/"><span class="title">209.长度最小的子数组</span></a><a class="item title" href="/2026/09/23/NISACTF2022huaji%EF%BC%9F/"><span class="title">NISACTF2022huaji？</span></a><a class="item title" href="/2026/09/23/SWPUCTF2021%E6%96%B0%E7%94%9F%E8%B5%9Beasyrce/"><span class="title">SWPUCTF2021新生赛easyrce</span></a><a class="item title" href="/2026/09/21/SWPUCTF%202021%E6%96%B0%E7%94%9F%E8%B5%9Bbabyrce/"><span class="title">SWPUCTF 2021 新生赛babyrce</span></a><a class="item title" href="/2026/09/23/%E9%99%87%E5%89%91%E6%9D%AF2021webshell/"><span class="title">陇剑杯2021webshell</span></a><a class="item title" href="/2026/09/06/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"><span class="title">第一篇博客</span></a></div></widget>
   </div>
 </section>
 
