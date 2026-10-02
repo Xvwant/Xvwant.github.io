@@ -2590,7 +2590,7 @@ document.addEventListener('DOMContentLoaded', function () {
     root: "/",
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/image/2659360.svg","topic":"https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/10433048.png","project":"https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2779789.png","banner":"https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/banner/books.jpg","loading":"https://api.iconify.design/eos-icons:three-dots-loading.svg?color=%231cd0fd","image_onerror":"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2rem' height='2rem' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='%23F44336' d='M22 12.698c-.002 1.47-.013 2.718-.096 3.743c-.097 1.19-.296 2.184-.74 3.009a4.2 4.2 0 0 1-.73.983c-.833.833-1.893 1.21-3.237 1.39C15.884 22 14.2 22 12.053 22h-.106c-2.148 0-3.83 0-5.144-.177c-1.343-.18-2.404-.557-3.236-1.39c-.738-.738-1.12-1.656-1.322-2.795c-.2-1.12-.236-2.512-.243-4.241Q1.999 12.737 2 12v-.054c0-2.148 0-3.83.177-5.144c.18-1.343.557-2.404 1.39-3.236s1.893-1.21 3.236-1.39c1.168-.157 2.67-.175 4.499-.177a.697.697 0 1 1 0 1.396c-1.855.002-3.234.018-4.313.163c-1.189.16-1.906.464-2.436.994S3.72 5.8 3.56 6.99C3.397 8.2 3.395 9.788 3.395 12v.784l.932-.814a2.14 2.14 0 0 1 2.922.097l3.99 3.99a1.86 1.86 0 0 0 2.385.207l.278-.195a2.79 2.79 0 0 1 3.471.209l2.633 2.37c.265-.557.423-1.288.507-2.32c.079-.972.09-2.152.091-3.63a.698.698 0 0 1 1.396 0' opacity='.5'/%3E%3Cpath fill='%23F44336' fill-rule='evenodd' d='M17.5 11c-2.121 0-3.182 0-3.841-.659S13 8.621 13 6.5s0-3.182.659-3.841S15.379 2 17.5 2s3.182 0 3.841.659S22 4.379 22 6.5s0 3.182-.659 3.841S19.621 11 17.5 11m-1.47-7.03a.75.75 0 1 0-1.06 1.06l1.47 1.47l-1.47 1.47a.75.75 0 0 0 1.06 1.06l1.47-1.47l1.47 1.47a.75.75 0 1 0 1.06-1.06L18.56 6.5l1.47-1.47a.75.75 0 0 0-1.06-1.06L17.5 5.44z' clip-rule='evenodd'/%3E%3C/svg%3E"},
-    lastupdate: new Date(1790764558085),
+    lastupdate: new Date(1790952052800),
     scroll_behavior: "smooth",
     cdn: {
       jquery: "https://unpkg.com/jquery@3.7.1/dist/jquery.min.js",
@@ -2968,9 +2968,268 @@ document.addEventListener('DOMContentLoaded', function () {
         
           
         
+          
+        
+          
+        
       
     
     
+      
+        
+          <div class='post-wrapper'>
+            
+
+<!-- 文章预览卡片容器，使用schema.org的Article类型进行结构化数据标记 -->
+<div class="post post-v3 white-box reveal shadow floatable blur" itemscope itemtype="http://schema.org/Article">
+  <!-- 标记文章的主要页面链接 -->
+  <link itemprop="mainEntityOfPage" href="https://xvwant.github.io/2026/10/01/Linux/">
+  
+  <!-- 隐藏的发布者信息，使用schema.org的Organization类型 -->
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="XWT&#39;s Blog">
+  </span>
+  <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="name" content="Linux">
+    <meta itemprop="description" content="Welcome To My Blog">
+  </span>
+
+  <!-- 显示置顶图标（如果计算得出需要显示） -->
+  
+  
+  <!-- 显示文章头图（如果存在） -->
+  
+    <!-- 如果没有头图，使用主题配置的默认图片作为结构化数据 -->
+    <span hidden>
+      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+    </span>
+  
+
+  <!-- 一般场景 -->
+  
+    <!-- 文章标题区域，使用schema.org的name和headline属性 -->
+    
+      <h2 class="article-title" itemprop="name headline">
+        <a href="/2026/10/01/Linux/" itemprop="url">
+          Linux
+        </a>
+      </h2>
+    
+    <!-- 文章摘要/描述区域，使用schema.org的articleBody属性 -->
+    <div class="md article-desc" itemprop="articleBody">
+      
+        <!-- 若既没有摘要也没有描述，则使用文章内容 -->
+        
+          <!-- 主题启用自动摘要时，显示截断后的内容（200字符） -->
+          Linuxgrep四个常用选项
+-i 忽略大小写
+-v 反向（只要不匹配的项）
+-r 递归搜索整个目录
+-n 显示行号
+
+四个基础正则符号
+^ 行首
+$ 行尾
+. 任意一个字符
+* 前面的字符重复任意次
+
+grep -i error /etc/services在 &#x2F;etc&#x2F;services 文件里寻找包含 “error” 这个词的行。-i 表示忽略大小写结果：没有任何输出...
+        
+      
+    </div>
+    
+    <!-- 元信息区域（作者、日期、分类、标签等），仅在需要显示其中至少一项时才渲染 -->
+    
+      <div class="meta-v3" line_style='solid'>
+        <div>
+          <!-- 显示作者信息（如果主题设置启用） -->
+          
+            <!-- 作者结构化数据，使用schema.org的Person类型 -->
+            <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/apple-touch-icon.png">
+              <meta itemprop="name" content="请设置文章作者">
+              <meta itemprop="url" content="/">
+            </span>
+
+          
+          <!-- 显示文章更新时间，使用schema.org的dateModified属性 -->
+          <time class="update-time" itemprop="dateModified" 
+                datetime="2026-10-02T22:40:11+08:00" 
+                title="2026年10月2日">
+            2026-10-02
+          </time>
+          
+          <!-- 显示文章分类（如果需要显示） -->
+          
+            <span class="dot"></span>
+            <a class="category-link" href="/categories/Linux/">Linux</a>
+            
+            <!-- 分类的结构化数据 -->
+            
+              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                <a href="/categories/Linux/" itemprop="url"><span itemprop="name">Linux</span></a>
+              </span>
+            
+          
+          
+          <!-- 显示文章标签（如果需要显示） -->
+          
+            <span class="dot"></span>
+            <a class="category-link" href="/tags/Linux%E6%8C%87%E4%BB%A4/">Linux指令</a><span class="sep"></span><a class="category-link" href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/">学习记录</a>
+            
+            <!-- 标签的结构化数据 -->
+            
+              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                <a href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" itemprop="url"><span itemprop="name">学习记录</span></a>
+              </span>
+            
+              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                <a href="/tags/Linux%E6%8C%87%E4%BB%A4/" itemprop="url"><span itemprop="name">Linux指令</span></a>
+              </span>
+            
+          
+        </div>
+        
+        <!-- 阅读更多按钮 -->
+        
+          <div>
+            <a class='readmore' href='/2026/10/01/Linux/'>
+              阅读全文
+            </a>
+          </div>
+        
+      </div>
+    
+  
+</div>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            
+
+<!-- 文章预览卡片容器，使用schema.org的Article类型进行结构化数据标记 -->
+<div class="post post-v3 white-box reveal shadow floatable blur" itemscope itemtype="http://schema.org/Article">
+  <!-- 标记文章的主要页面链接 -->
+  <link itemprop="mainEntityOfPage" href="https://xvwant.github.io/2026/09/30/Linux管道与重定向/">
+  
+  <!-- 隐藏的发布者信息，使用schema.org的Organization类型 -->
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="XWT&#39;s Blog">
+  </span>
+  <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="name" content="Linux管道与重定向">
+    <meta itemprop="description" content="Welcome To My Blog">
+  </span>
+
+  <!-- 显示置顶图标（如果计算得出需要显示） -->
+  
+  
+  <!-- 显示文章头图（如果存在） -->
+  
+    <!-- 如果没有头图，使用主题配置的默认图片作为结构化数据 -->
+    <span hidden>
+      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+    </span>
+  
+
+  <!-- 一般场景 -->
+  
+    <!-- 文章标题区域，使用schema.org的name和headline属性 -->
+    
+      <h2 class="article-title" itemprop="name headline">
+        <a href="/2026/09/30/Linux%E7%AE%A1%E9%81%93%E4%B8%8E%E9%87%8D%E5%AE%9A%E5%90%91/" itemprop="url">
+          Linux管道与重定向
+        </a>
+      </h2>
+    
+    <!-- 文章摘要/描述区域，使用schema.org的articleBody属性 -->
+    <div class="md article-desc" itemprop="articleBody">
+      
+        <!-- 若既没有摘要也没有描述，则使用文章内容 -->
+        
+          <!-- 主题启用自动摘要时，显示截断后的内容（200字符） -->
+          管道与重定向三个标准流
+0：stdin 标准输入 → 程序默认从这里读数据，通常是键盘
+1：stdout 标准输出 → 正常打印到屏幕
+2：stderr 标准错误 → 报错信息，默认也是屏幕，但和 stdout 是两条独立通道
+
+stdin(0) 标准输入： 从键盘给程序输入输入文字回车，cat读取stdin并打印，按Ctrl+D结束
+stdout(1) 正常输出：打印到屏幕&#96;
+st...
+        
+      
+    </div>
+    
+    <!-- 元信息区域（作者、日期、分类、标签等），仅在需要显示其中至少一项时才渲染 -->
+    
+      <div class="meta-v3" line_style='solid'>
+        <div>
+          <!-- 显示作者信息（如果主题设置启用） -->
+          
+            <!-- 作者结构化数据，使用schema.org的Person类型 -->
+            <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/apple-touch-icon.png">
+              <meta itemprop="name" content="请设置文章作者">
+              <meta itemprop="url" content="/">
+            </span>
+
+          
+          <!-- 显示文章更新时间，使用schema.org的dateModified属性 -->
+          <time class="update-time" itemprop="dateModified" 
+                datetime="2026-10-01T08:27:55+08:00" 
+                title="2026年10月1日">
+            2026-10-01
+          </time>
+          
+          <!-- 显示文章分类（如果需要显示） -->
+          
+            <span class="dot"></span>
+            <a class="category-link" href="/categories/Linux/">Linux</a>
+            
+            <!-- 分类的结构化数据 -->
+            
+              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                <a href="/categories/Linux/" itemprop="url"><span itemprop="name">Linux</span></a>
+              </span>
+            
+          
+          
+          <!-- 显示文章标签（如果需要显示） -->
+          
+            <span class="dot"></span>
+            <a class="category-link" href="/tags/Linux%E6%8C%87%E4%BB%A4/">Linux指令</a><span class="sep"></span><a class="category-link" href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/">学习记录</a>
+            
+            <!-- 标签的结构化数据 -->
+            
+              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                <a href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" itemprop="url"><span itemprop="name">学习记录</span></a>
+              </span>
+            
+              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                <a href="/tags/Linux%E6%8C%87%E4%BB%A4/" itemprop="url"><span itemprop="name">Linux指令</span></a>
+              </span>
+            
+          
+        </div>
+        
+        <!-- 阅读更多按钮 -->
+        
+          <div>
+            <a class='readmore' href='/2026/09/30/Linux%E7%AE%A1%E9%81%93%E4%B8%8E%E9%87%8D%E5%AE%9A%E5%90%91/'>
+              阅读全文
+            </a>
+          </div>
+        
+      </div>
+    
+  
+</div>
+
+          </div>
+        
       
         
           <div class='post-wrapper'>
@@ -3927,248 +4186,6 @@ ls /tmp 临时文件
           </div>
         
       
-        
-          <div class='post-wrapper'>
-            
-
-<!-- 文章预览卡片容器，使用schema.org的Article类型进行结构化数据标记 -->
-<div class="post post-v3 white-box reveal shadow floatable blur" itemscope itemtype="http://schema.org/Article">
-  <!-- 标记文章的主要页面链接 -->
-  <link itemprop="mainEntityOfPage" href="https://xvwant.github.io/2026/09/23/陇剑杯2021webshell/">
-  
-  <!-- 隐藏的发布者信息，使用schema.org的Organization类型 -->
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="XWT&#39;s Blog">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="name" content="陇剑杯2021webshell">
-    <meta itemprop="description" content="Welcome To My Blog">
-  </span>
-
-  <!-- 显示置顶图标（如果计算得出需要显示） -->
-  
-  
-  <!-- 显示文章头图（如果存在） -->
-  
-    <!-- 如果没有头图，使用主题配置的默认图片作为结构化数据 -->
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
-  
-
-  <!-- 一般场景 -->
-  
-    <!-- 文章标题区域，使用schema.org的name和headline属性 -->
-    
-      <h2 class="article-title" itemprop="name headline">
-        <a href="/2026/09/23/%E9%99%87%E5%89%91%E6%9D%AF2021webshell/" itemprop="url">
-          陇剑杯2021webshell
-        </a>
-      </h2>
-    
-    <!-- 文章摘要/描述区域，使用schema.org的articleBody属性 -->
-    <div class="md article-desc" itemprop="articleBody">
-      
-        <!-- 若既没有摘要也没有描述，则使用文章内容 -->
-        
-          <!-- 主题启用自动摘要时，显示截断后的内容（200字符） -->
-          陇剑杯2021webshellhttps://www.nssctf.cn/problem/278
-初见这一道题给了一个pcap文件，题目描述说网站被挂马，让我们从流量中分析出黑客使用的密码这样，我们的思路就很显然了：
-
-分析流量包-&gt;找POST请求-&gt;分析-&gt;找到密码参数
-
-做题过程先用wireshark打开流量包，过滤出所有POST请求的部分http.request.me...
-        
-      
-    </div>
-    
-    <!-- 元信息区域（作者、日期、分类、标签等），仅在需要显示其中至少一项时才渲染 -->
-    
-      <div class="meta-v3" line_style='solid'>
-        <div>
-          <!-- 显示作者信息（如果主题设置启用） -->
-          
-            <!-- 作者结构化数据，使用schema.org的Person类型 -->
-            <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/apple-touch-icon.png">
-              <meta itemprop="name" content="请设置文章作者">
-              <meta itemprop="url" content="/">
-            </span>
-
-          
-          <!-- 显示文章更新时间，使用schema.org的dateModified属性 -->
-          <time class="update-time" itemprop="dateModified" 
-                datetime="2026-09-25T08:52:28+08:00" 
-                title="2026年9月25日">
-            2026-09-25
-          </time>
-          
-          <!-- 显示文章分类（如果需要显示） -->
-          
-            <span class="dot"></span>
-            <a class="category-link" href="/categories/Misc/">Misc</a>
-            
-            <!-- 分类的结构化数据 -->
-            
-              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                <a href="/categories/Misc/" itemprop="url"><span itemprop="name">Misc</span></a>
-              </span>
-            
-          
-          
-          <!-- 显示文章标签（如果需要显示） -->
-          
-            <span class="dot"></span>
-            <a class="category-link" href="/tags/pcap/">pcap</a><span class="sep"></span><a class="category-link" href="/tags/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/">流量分析</a>
-            
-            <!-- 标签的结构化数据 -->
-            
-              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                <a href="/tags/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/" itemprop="url"><span itemprop="name">流量分析</span></a>
-              </span>
-            
-              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                <a href="/tags/pcap/" itemprop="url"><span itemprop="name">pcap</span></a>
-              </span>
-            
-          
-        </div>
-        
-        <!-- 阅读更多按钮 -->
-        
-          <div>
-            <a class='readmore' href='/2026/09/23/%E9%99%87%E5%89%91%E6%9D%AF2021webshell/'>
-              阅读全文
-            </a>
-          </div>
-        
-      </div>
-    
-  
-</div>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            
-
-<!-- 文章预览卡片容器，使用schema.org的Article类型进行结构化数据标记 -->
-<div class="post post-v3 white-box reveal shadow floatable blur" itemscope itemtype="http://schema.org/Article">
-  <!-- 标记文章的主要页面链接 -->
-  <link itemprop="mainEntityOfPage" href="https://xvwant.github.io/2026/09/23/NISACTF2022huaji？/">
-  
-  <!-- 隐藏的发布者信息，使用schema.org的Organization类型 -->
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="XWT&#39;s Blog">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="name" content="NISACTF2022huaji？">
-    <meta itemprop="description" content="Welcome To My Blog">
-  </span>
-
-  <!-- 显示置顶图标（如果计算得出需要显示） -->
-  
-  
-  <!-- 显示文章头图（如果存在） -->
-  
-    <!-- 如果没有头图，使用主题配置的默认图片作为结构化数据 -->
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
-  
-
-  <!-- 一般场景 -->
-  
-    <!-- 文章标题区域，使用schema.org的name和headline属性 -->
-    
-      <h2 class="article-title" itemprop="name headline">
-        <a href="/2026/09/23/NISACTF2022huaji%EF%BC%9F/" itemprop="url">
-          NISACTF2022huaji？
-        </a>
-      </h2>
-    
-    <!-- 文章摘要/描述区域，使用schema.org的articleBody属性 -->
-    <div class="md article-desc" itemprop="articleBody">
-      
-        <!-- 若既没有摘要也没有描述，则使用文章内容 -->
-        
-          <!-- 主题启用自动摘要时，显示截断后的内容（200字符） -->
-          NISACTF 2022huaji？解题过程下载附件后丢到linux系统,file指令查看文件：
-12huaji？: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, Exif Standard: [TIFF image data, big-endian, dire...
-        
-      
-    </div>
-    
-    <!-- 元信息区域（作者、日期、分类、标签等），仅在需要显示其中至少一项时才渲染 -->
-    
-      <div class="meta-v3" line_style='solid'>
-        <div>
-          <!-- 显示作者信息（如果主题设置启用） -->
-          
-            <!-- 作者结构化数据，使用schema.org的Person类型 -->
-            <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/apple-touch-icon.png">
-              <meta itemprop="name" content="请设置文章作者">
-              <meta itemprop="url" content="/">
-            </span>
-
-          
-          <!-- 显示文章更新时间，使用schema.org的dateModified属性 -->
-          <time class="update-time" itemprop="dateModified" 
-                datetime="2026-09-25T08:52:15+08:00" 
-                title="2026年9月25日">
-            2026-09-25
-          </time>
-          
-          <!-- 显示文章分类（如果需要显示） -->
-          
-            <span class="dot"></span>
-            <a class="category-link" href="/categories/Misc/">Misc</a>
-            
-            <!-- 分类的结构化数据 -->
-            
-              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                <a href="/categories/Misc/" itemprop="url"><span itemprop="name">Misc</span></a>
-              </span>
-            
-          
-          
-          <!-- 显示文章标签（如果需要显示） -->
-          
-            <span class="dot"></span>
-            <a class="category-link" href="/tags/%E5%9B%BE%E7%89%87%E9%9A%90%E5%86%99/">图片隐写</a><span class="sep"></span><a class="category-link" href="/tags/%E6%96%87%E4%BB%B6%E5%88%86%E6%9E%90/">文件分析</a>
-            
-            <!-- 标签的结构化数据 -->
-            
-              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                <a href="/tags/%E6%96%87%E4%BB%B6%E5%88%86%E6%9E%90/" itemprop="url"><span itemprop="name">文件分析</span></a>
-              </span>
-            
-              <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                <a href="/tags/%E5%9B%BE%E7%89%87%E9%9A%90%E5%86%99/" itemprop="url"><span itemprop="name">图片隐写</span></a>
-              </span>
-            
-          
-        </div>
-        
-        <!-- 阅读更多按钮 -->
-        
-          <div>
-            <a class='readmore' href='/2026/09/23/NISACTF2022huaji%EF%BC%9F/'>
-              阅读全文
-            </a>
-          </div>
-        
-      </div>
-    
-  
-</div>
-
-          </div>
-        
-      
     
   </section>
   
@@ -4221,7 +4238,7 @@ ls /tmp 临时文件
           <li><a class="flat-box"
             title="/categories/Linux/" href="/categories/Linux/"
             active-action="action-categoriesLinux"
-            ><div class='name'>Linux</div><div class='badge'>(2)</div></a></li>
+            ><div class='name'>Linux</div><div class='badge'>(4)</div></a></li>
         
           <li><a class="flat-box"
             title="/categories/Misc/" href="/categories/Misc/"
@@ -4262,7 +4279,7 @@ ls /tmp 临时文件
 
 
     <div class='content'>
-      <a href="/tags/Burp/" style="font-size: 14px; color: #999">Burp</a> <a href="/tags/HTMl/" style="font-size: 14px; color: #999">HTMl</a> <a href="/tags/HTTP/" style="font-size: 14px; color: #999">HTTP</a> <a href="/tags/Linux%E6%8C%87%E4%BB%A4/" style="font-size: 16.5px; color: #888">Linux指令</a> <a href="/tags/RCE/" style="font-size: 14px; color: #999">RCE</a> <a href="/tags/Web/" style="font-size: 24px; color: #555">Web</a> <a href="/tags/pcap/" style="font-size: 16.5px; color: #888">pcap</a> <a href="/tags/php/" style="font-size: 16.5px; color: #888">php</a> <a href="/tags/python/" style="font-size: 19px; color: #777">python</a> <a href="/tags/sql/" style="font-size: 14px; color: #999">sql</a> <a href="/tags/%E5%8F%8C%E6%8C%87%E9%92%88/" style="font-size: 19px; color: #777">双指针</a> <a href="/tags/%E5%93%88%E5%B8%8C%E8%A1%A8/" style="font-size: 14px; color: #999">哈希表</a> <a href="/tags/%E5%9B%BE%E7%89%87%E9%9A%90%E5%86%99/" style="font-size: 14px; color: #999">图片隐写</a> <a href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" style="font-size: 21.5px; color: #666">学习记录</a> <a href="/tags/%E5%BF%AB%E6%85%A2%E6%8C%87%E9%92%88/" style="font-size: 14px; color: #999">快慢指针</a> <a href="/tags/%E6%95%B0%E7%BB%84/" style="font-size: 16.5px; color: #888">数组</a> <a href="/tags/%E6%95%B4%E6%95%B0%E5%92%8C/" style="font-size: 14px; color: #999">整数和</a> <a href="/tags/%E6%96%87%E4%BB%B6%E5%88%86%E6%9E%90/" style="font-size: 14px; color: #999">文件分析</a> <a href="/tags/%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB%E6%BC%8F%E6%B4%9E/" style="font-size: 14px; color: #999">文件包含漏洞</a> <a href="/tags/%E6%9A%B4%E5%8A%9B%E6%9E%9A%E4%B8%BE/" style="font-size: 14px; color: #999">暴力枚举</a> <a href="/tags/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/" style="font-size: 14px; color: #999">流量分析</a>
+      <a href="/tags/Burp/" style="font-size: 14px; color: #999">Burp</a> <a href="/tags/HTMl/" style="font-size: 14px; color: #999">HTMl</a> <a href="/tags/HTTP/" style="font-size: 14px; color: #999">HTTP</a> <a href="/tags/Linux%E6%8C%87%E4%BB%A4/" style="font-size: 20px; color: #707070">Linux指令</a> <a href="/tags/RCE/" style="font-size: 14px; color: #999">RCE</a> <a href="/tags/Web/" style="font-size: 24px; color: #555">Web</a> <a href="/tags/pcap/" style="font-size: 16px; color: #8b8b8b">pcap</a> <a href="/tags/php/" style="font-size: 16px; color: #8b8b8b">php</a> <a href="/tags/python/" style="font-size: 18px; color: #7e7e7e">python</a> <a href="/tags/sql/" style="font-size: 14px; color: #999">sql</a> <a href="/tags/%E5%8F%8C%E6%8C%87%E9%92%88/" style="font-size: 18px; color: #7e7e7e">双指针</a> <a href="/tags/%E5%93%88%E5%B8%8C%E8%A1%A8/" style="font-size: 14px; color: #999">哈希表</a> <a href="/tags/%E5%9B%BE%E7%89%87%E9%9A%90%E5%86%99/" style="font-size: 14px; color: #999">图片隐写</a> <a href="/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" style="font-size: 22px; color: #636363">学习记录</a> <a href="/tags/%E5%BF%AB%E6%85%A2%E6%8C%87%E9%92%88/" style="font-size: 14px; color: #999">快慢指针</a> <a href="/tags/%E6%95%B0%E7%BB%84/" style="font-size: 16px; color: #8b8b8b">数组</a> <a href="/tags/%E6%95%B4%E6%95%B0%E5%92%8C/" style="font-size: 14px; color: #999">整数和</a> <a href="/tags/%E6%96%87%E4%BB%B6%E5%88%86%E6%9E%90/" style="font-size: 14px; color: #999">文件分析</a> <a href="/tags/%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB%E6%BC%8F%E6%B4%9E/" style="font-size: 14px; color: #999">文件包含漏洞</a> <a href="/tags/%E6%9A%B4%E5%8A%9B%E6%9E%9A%E4%B8%BE/" style="font-size: 14px; color: #999">暴力枚举</a> <a href="/tags/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/" style="font-size: 14px; color: #999">流量分析</a>
     </div>
   </section>
 
@@ -4286,7 +4303,7 @@ ls /tmp 临时文件
 
 
   <div class='content'>
-    <widget class="widget-wrapper recent post-list"><div class="widget-body fs14"><a class="item title" href="/2026/09/29/Linux%E6%9D%83%E9%99%90%E4%B8%8E%E7%94%A8%E6%88%B7/"><span class="title">Linux权限与用户</span></a><a class="item title" href="/2026/09/27/Linux%E7%9B%AE%E5%BD%95%E5%AF%BC%E8%88%AA%E4%B8%8E%E7%BB%93%E6%9E%84/"><span class="title">Linux目录结构与导航</span></a><a class="item title" href="/2026/09/25/LC3/"><span class="title">3.无重复字符的最长子串</span></a><a class="item title" href="/2026/09/24/LC209/"><span class="title">209.长度最小的子数组</span></a><a class="item title" href="/2026/09/26/SWPUCTF2025%E7%A7%8B%E5%AD%A3%E6%96%B0%E7%94%9F%E8%B5%9Bez_HTTP-Traffic-Analysis/"><span class="title">SWPUCTF2025秋季新生赛ez_HTTP-Traffic-Analysis</span></a><a class="item title" href="/2026/09/26/SWPUCTF2025%E7%A7%8B%E5%AD%A3%E6%96%B0%E7%94%9F%E8%B5%9B%E5%93%88%E5%9F%BA%E7%B1%B3%E5%8D%97%E5%8C%97%E9%9C%B2%E8%BA%B2/"><span class="title">SWPUCTF2025秋季新生赛哈基米南北露躲</span></a><a class="item title" href="/2026/09/23/SWPUCTF2021%E6%96%B0%E7%94%9F%E8%B5%9Beasyrce/"><span class="title">SWPUCTF2021新生赛easyrce</span></a><a class="item title" href="/2026/09/23/SWPU2020%E5%A5%97%E5%A8%83/"><span class="title">SWPU2020套娃</span></a><a class="item title" href="/2026/09/22/LC1/"><span class="title">1.两数之和</span></a><a class="item title" href="/2026/09/21/SWPUCTF2021%E6%96%B0%E7%94%9F%E8%B5%9Beasy_sql/"><span class="title">SWPUCTF 2021 新生赛]easy_sql</span></a></div></widget>
+    <widget class="widget-wrapper recent post-list"><div class="widget-body fs14"><a class="item title" href="/2026/10/01/Linux/"><span class="title">Linux</span></a><a class="item title" href="/2026/09/30/Linux%E7%AE%A1%E9%81%93%E4%B8%8E%E9%87%8D%E5%AE%9A%E5%90%91/"><span class="title">Linux管道与重定向</span></a><a class="item title" href="/2026/09/29/Linux%E6%9D%83%E9%99%90%E4%B8%8E%E7%94%A8%E6%88%B7/"><span class="title">Linux权限与用户</span></a><a class="item title" href="/2026/09/27/Linux%E7%9B%AE%E5%BD%95%E5%AF%BC%E8%88%AA%E4%B8%8E%E7%BB%93%E6%9E%84/"><span class="title">Linux目录结构与导航</span></a><a class="item title" href="/2026/09/25/LC3/"><span class="title">3.无重复字符的最长子串</span></a><a class="item title" href="/2026/09/24/LC209/"><span class="title">209.长度最小的子数组</span></a><a class="item title" href="/2026/09/26/SWPUCTF2025%E7%A7%8B%E5%AD%A3%E6%96%B0%E7%94%9F%E8%B5%9Bez_HTTP-Traffic-Analysis/"><span class="title">SWPUCTF2025秋季新生赛ez_HTTP-Traffic-Analysis</span></a><a class="item title" href="/2026/09/26/SWPUCTF2025%E7%A7%8B%E5%AD%A3%E6%96%B0%E7%94%9F%E8%B5%9B%E5%93%88%E5%9F%BA%E7%B1%B3%E5%8D%97%E5%8C%97%E9%9C%B2%E8%BA%B2/"><span class="title">SWPUCTF2025秋季新生赛哈基米南北露躲</span></a><a class="item title" href="/2026/09/23/SWPUCTF2021%E6%96%B0%E7%94%9F%E8%B5%9Beasyrce/"><span class="title">SWPUCTF2021新生赛easyrce</span></a><a class="item title" href="/2026/09/23/SWPU2020%E5%A5%97%E5%A8%83/"><span class="title">SWPU2020套娃</span></a></div></widget>
   </div>
 </section>
 
