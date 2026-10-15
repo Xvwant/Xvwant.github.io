@@ -40,11 +40,11 @@
 <meta property="og:title" content="Linux服务与进程">
 <meta property="og:url" content="https://xvwant.github.io/2026/10/04/Linux%E6%9C%8D%E5%8A%A1%E4%B8%8E%E8%BF%9B%E7%A8%8B/index.html">
 <meta property="og:site_name" content="XWT&#39;s Blog">
-<meta property="og:description" content="Linux服务与进程服务以ssh为例现在启动：start开机自启：enable输入以下指令，查看ssh的状态 1234567systemctl status sshsudo systemctl stop sshsystemctl status sshsudo systemctl start sshsudo systemctl enable sshsystemctl is-enabled sshsy">
+<meta property="og:description" content="服务以ssh为例现在启动：start开机自启：enable输入以下指令，查看ssh的状态 1234567systemctl status sshsudo systemctl stop sshsystemctl status sshsudo systemctl start sshsudo systemctl enable sshsystemctl is-enabled sshsystemctl is">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2026-10-03T16:00:00.000Z">
-<meta property="article:modified_time" content="2026-10-04T07:23:44.253Z">
+<meta property="article:modified_time" content="2026-10-15T02:41:34.421Z">
 <meta property="article:author" content="XWT">
 <meta property="article:tag" content="Linux指令">
 <meta property="article:tag" content="学习记录">
@@ -2594,7 +2594,7 @@ document.addEventListener('DOMContentLoaded', function () {
     root: "/",
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1761982841160/media/placeholder/image/2659360.svg","topic":"https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/10433048.png","project":"https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2779789.png","banner":"https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/banner/books.jpg","loading":"https://api.iconify.design/eos-icons:three-dots-loading.svg?color=%231cd0fd","image_onerror":"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2rem' height='2rem' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='%23F44336' d='M22 12.698c-.002 1.47-.013 2.718-.096 3.743c-.097 1.19-.296 2.184-.74 3.009a4.2 4.2 0 0 1-.73.983c-.833.833-1.893 1.21-3.237 1.39C15.884 22 14.2 22 12.053 22h-.106c-2.148 0-3.83 0-5.144-.177c-1.343-.18-2.404-.557-3.236-1.39c-.738-.738-1.12-1.656-1.322-2.795c-.2-1.12-.236-2.512-.243-4.241Q1.999 12.737 2 12v-.054c0-2.148 0-3.83.177-5.144c.18-1.343.557-2.404 1.39-3.236s1.893-1.21 3.236-1.39c1.168-.157 2.67-.175 4.499-.177a.697.697 0 1 1 0 1.396c-1.855.002-3.234.018-4.313.163c-1.189.16-1.906.464-2.436.994S3.72 5.8 3.56 6.99C3.397 8.2 3.395 9.788 3.395 12v.784l.932-.814a2.14 2.14 0 0 1 2.922.097l3.99 3.99a1.86 1.86 0 0 0 2.385.207l.278-.195a2.79 2.79 0 0 1 3.471.209l2.633 2.37c.265-.557.423-1.288.507-2.32c.079-.972.09-2.152.091-3.63a.698.698 0 0 1 1.396 0' opacity='.5'/%3E%3Cpath fill='%23F44336' fill-rule='evenodd' d='M17.5 11c-2.121 0-3.182 0-3.841-.659S13 8.621 13 6.5s0-3.182.659-3.841S15.379 2 17.5 2s3.182 0 3.841.659S22 4.379 22 6.5s0 3.182-.659 3.841S19.621 11 17.5 11m-1.47-7.03a.75.75 0 1 0-1.06 1.06l1.47 1.47l-1.47 1.47a.75.75 0 0 0 1.06 1.06l1.47-1.47l1.47 1.47a.75.75 0 1 0 1.06-1.06L18.56 6.5l1.47-1.47a.75.75 0 0 0-1.06-1.06L17.5 5.44z' clip-rule='evenodd'/%3E%3C/svg%3E"},
-    lastupdate: new Date(1791885949343),
+    lastupdate: new Date(1792077374815),
     scroll_behavior: "smooth",
     cdn: {
       jquery: "https://unpkg.com/jquery@3.7.1/dist/jquery.min.js",
@@ -2662,7 +2662,7 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 
-    <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"XWT's Blog","url":"https://Xvwant.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"XWT","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://Xvwant.github.io/","sameAs":["https://github.com/volantis-x"],"description":"Welcome To My Blog"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://Xvwant.github.io/","name":"XWT's Blog"}},{"@type":"ListItem","position":2,"item":{"@id":"https://Xvwant.github.io/categories/Linux/","name":"Linux"}},{"@type":"ListItem","position":3,"item":{"@id":"https://Xvwant.github.io/2026/10/04/Linux服务与进程/","name":"Linux服务与进程"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"XWT's Blog","url":"https://Xvwant.github.io/","keywords":null,"description":"Welcome To My Blog","author":{"@type":"Person","name":"XWT","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://Xvwant.github.io/","description":"Welcome To My Blog"},"publisher":{"@type":"Organization","name":"XWT's Blog","url":"https://Xvwant.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://Xvwant.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Linux服务与进程","description":"Welcome To My Blog","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://xvwant.github.io/2026/10/04/Linux%E6%9C%8D%E5%8A%A1%E4%B8%8E%E8%BF%9B%E7%A8%8B/"},"author":{"@type":"Person","name":"XWT","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://Xvwant.github.io/"},"publisher":{"@type":"Organization","name":"XWT's Blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://xvwant.github.io/2026/10/04/Linux%E6%9C%8D%E5%8A%A1%E4%B8%8E%E8%BF%9B%E7%A8%8B/","wordCount":0,"datePublished":"2026-10-03T16:00:00.000Z","dateModified":"2026-10-04T07:23:44.253Z","articleSection":"Linux","keywords":"学习记录,Linux指令","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+    <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"XWT's Blog","url":"https://Xvwant.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"XWT","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://Xvwant.github.io/","sameAs":["https://github.com/volantis-x"],"description":"Welcome To My Blog"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://Xvwant.github.io/","name":"XWT's Blog"}},{"@type":"ListItem","position":2,"item":{"@id":"https://Xvwant.github.io/categories/Linux/","name":"Linux"}},{"@type":"ListItem","position":3,"item":{"@id":"https://Xvwant.github.io/2026/10/04/Linux服务与进程/","name":"Linux服务与进程"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"XWT's Blog","url":"https://Xvwant.github.io/","keywords":null,"description":"Welcome To My Blog","author":{"@type":"Person","name":"XWT","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://Xvwant.github.io/","description":"Welcome To My Blog"},"publisher":{"@type":"Organization","name":"XWT's Blog","url":"https://Xvwant.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://Xvwant.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Linux服务与进程","description":"Welcome To My Blog","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://xvwant.github.io/2026/10/04/Linux%E6%9C%8D%E5%8A%A1%E4%B8%8E%E8%BF%9B%E7%A8%8B/"},"author":{"@type":"Person","name":"XWT","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://Xvwant.github.io/"},"publisher":{"@type":"Organization","name":"XWT's Blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://xvwant.github.io/2026/10/04/Linux%E6%9C%8D%E5%8A%A1%E4%B8%8E%E8%BF%9B%E7%A8%8B/","wordCount":0,"datePublished":"2026-10-03T16:00:00.000Z","dateModified":"2026-10-15T02:41:34.421Z","articleSection":"Linux","keywords":"学习记录,Linux指令","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1761982841160/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
   <!-- import head_end begin -->
   <!-- import head_end end -->
   <!-- Custom Files headEnd begin-->
@@ -3022,24 +3022,34 @@ document.addEventListener('DOMContentLoaded', function () {
   <div id="layoutHelper-page-plugins"></div>
   <!-- 文章核心内容区 -->
   <div id="post-body" itemprop="articleBody">
-    <h1 id="Linux服务与进程"><a href="#Linux服务与进程" class="headerlink" title="Linux服务与进程"></a>Linux服务与进程</h1><h2 id="服务"><a href="#服务" class="headerlink" title="服务"></a>服务</h2><p><em>以ssh为例</em><br>现在启动：<code>start</code><br>开机自启：<code>enable</code><br>输入以下指令，查看ssh的状态</p>
+    <h2 id="服务"><a href="#服务" class="headerlink" title="服务"></a>服务</h2><p><em>以ssh为例</em><br>现在启动：<code>start</code><br>开机自启：<code>enable</code><br>输入以下指令，查看ssh的状态</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">systemctl status ssh</span><br><span class="line"><span class="built_in">sudo</span> systemctl stop ssh</span><br><span class="line">systemctl status ssh</span><br><span class="line"><span class="built_in">sudo</span> systemctl start ssh</span><br><span class="line"><span class="built_in">sudo</span> systemctl <span class="built_in">enable</span> ssh</span><br><span class="line">systemctl is-enabled ssh</span><br><span class="line">systemctl is-active ssh</span><br></pre></td></tr></table></figure>
-<h2 id="进程"><a href="#进程" class="headerlink" title="进程"></a>进程</h2><h3 id="ps-aux-grep-ssh"><a href="#ps-aux-grep-ssh" class="headerlink" title="ps aux | grep ssh"></a><code>ps aux | grep ssh</code></h3><p><code>ps aux</code>：列出<strong>全部进程</strong>（a 所有用户，u 详细信息，x 无终端的进程也展示）<br><img src="/../images/Linux%E6%9C%8D%E5%8A%A1%E4%B8%8E%E8%BF%9B%E7%A8%8B/2026-10-04-15-08-48.png" class="lazyload" data-srcset="/../images/Linux%E6%9C%8D%E5%8A%A1%E4%B8%8E%E8%BF%9B%E7%A8%8B/2026-10-04-15-08-48.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="2026-10-04-15-08-48"><br>字段含义（ps aux 输出）：</p>
+
+<h2 id="进程"><a href="#进程" class="headerlink" title="进程"></a>进程</h2><h3 id="ps-查看全部进程并过滤"><a href="#ps-查看全部进程并过滤" class="headerlink" title="ps 查看全部进程并过滤"></a>ps 查看全部进程并过滤</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps aux | grep ssh</span><br></pre></td></tr></table></figure>
+
+
+<p><code>ps aux</code>：列出<strong>全部进程</strong>（a 所有用户，u 详细信息，x 无终端的进程也展示）<br><img src="/../images/Linux%E6%9C%8D%E5%8A%A1%E4%B8%8E%E8%BF%9B%E7%A8%8B/2026-10-04-15-08-48.png" class="lazyload" data-srcset="/../images/Linux%E6%9C%8D%E5%8A%A1%E4%B8%8E%E8%BF%9B%E7%A8%8B/2026-10-04-15-08-48.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="2026-10-04-15-08-48"><br>字段含义（ps aux 输出）：</p>
 <blockquote>
 <p>USER  PID  %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND<br>- USER：进程所属用户<br>- PID：进程 ID（杀进程用 <code>kill PID</code>）<br>- % CPU &#x2F; % MEM：CPU、内存占用率<br>- COMMAND：启动的命令 &#x2F; 程序</p>
 </blockquote>
-<h3 id="pgrep-ssh"><a href="#pgrep-ssh" class="headerlink" title="pgrep ssh"></a><code>pgrep ssh</code></h3><p><strong>只输出 PID</strong>，直接打印 ssh 相关进程号，输出简洁。</p>
+<h3 id="pgrep-只输出-PID"><a href="#pgrep-只输出-PID" class="headerlink" title="pgrep 只输出 PID"></a>pgrep 只输出 PID</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pgrep ssh</span><br></pre></td></tr></table></figure>
+
+
+<p><strong>只输出 PID</strong>，直接打印 ssh 相关进程号，输出简洁。</p>
 <ul>
 <li>只返回 PID，没有其他资源信息</li>
 <li>常用搭配：<code>pgrep -l ssh</code> 同时显示 PID + 进程名</li>
 </ul>
-<h3 id="top"><a href="#top" class="headerlink" title="top"></a><code>top</code></h3><p><strong>动态实时监控</strong>（任务管理器），持续刷新 CPU、内存占用</p>
+<h3 id="top-动态监控"><a href="#top-动态监控" class="headerlink" title="top 动态监控"></a>top 动态监控</h3><p><strong>动态实时监控</strong>（任务管理器），持续刷新 CPU、内存占用</p>
 <ul>
 <li>按 <code>q</code> 退出 top 界面</li>
 <li>默认按 CPU 排序；按 M 切换成<strong>内存排序</strong></li>
 </ul>
 <h2 id="端口"><a href="#端口" class="headerlink" title="端口"></a>端口</h2><p>ss：socket statistics，查看套接字 &#x2F; 端口</p>
-<h3 id="ss-tulnp"><a href="#ss-tulnp" class="headerlink" title="ss -tulnp"></a>ss -tulnp</h3><ul>
+<h3 id="ss-查看监听端口"><a href="#ss-查看监听端口" class="headerlink" title="ss 查看监听端口"></a>ss 查看监听端口</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ss -tulnp</span><br></pre></td></tr></table></figure>
+
+
+<ul>
 <li><code>-t</code>：TCP 协议</li>
 <li><code>-u</code>：UDP 协议</li>
 <li><code>-l</code>：<strong>只看监听端口（LISTEN，正在等待别人连接）</strong></li>
@@ -3054,7 +3064,10 @@ document.addEventListener('DOMContentLoaded', function () {
 <li><code>[::]:22</code>：<strong>IPv6，本机所有网卡，22 端口</strong></li>
 <li><code>0.0.0.0:*</code>：允许<strong>任意 IP</strong>来连接这个端口</li>
 </ul>
-<h3 id="ss-tlnp-grep-22"><a href="#ss-tlnp-grep-22" class="headerlink" title="ss -tlnp | grep 22"></a>ss -tlnp | grep 22</h3><p><img src="/../images/Linux%E6%9C%8D%E5%8A%A1%E4%B8%8E%E8%BF%9B%E7%A8%8B/2026-10-04-15-23-12.png" class="lazyload" data-srcset="/../images/Linux%E6%9C%8D%E5%8A%A1%E4%B8%8E%E8%BF%9B%E7%A8%8B/2026-10-04-15-23-12.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="2026-10-04-15-23-12"></p>
+<h3 id="ss-过滤指定端口"><a href="#ss-过滤指定端口" class="headerlink" title="ss 过滤指定端口"></a>ss 过滤指定端口</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ss -tlnp | grep 22</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="/../images/Linux%E6%9C%8D%E5%8A%A1%E4%B8%8E%E8%BF%9B%E7%A8%8B/2026-10-04-15-23-12.png" class="lazyload" data-srcset="/../images/Linux%E6%9C%8D%E5%8A%A1%E4%B8%8E%E8%BF%9B%E7%A8%8B/2026-10-04-15-23-12.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="2026-10-04-15-23-12"></p>
 <h3 id="补充（旧命令）"><a href="#补充（旧命令）" class="headerlink" title="补充（旧命令）"></a>补充（旧命令）</h3><p><code>netstat -tulnp</code>，功能和 ss 几乎一样</p>
 
   </div>
@@ -3083,10 +3096,10 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2026-10-04T15:23:44+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2026-10-15T10:41:34+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2026年10月4日</p>
+    <p>更新于：2026年10月15日</p>
   </a>
 </div>
 
@@ -3160,15 +3173,15 @@ document.addEventListener('DOMContentLoaded', function () {
       
         <a class='prev' href='/2026/10/05/Linux%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E4%B8%8E%E5%AD%90%E7%BD%91/'>
           <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>Linux网络配置与子网</p>
-          <p class='content'>Linux网络配置与子网IP、子网掩码、网关ip a 看IP和掩码
-1inet 192.168.133.128/24 brd 192.168.133.255 scope global dynam...</p>
+          <p class='content'>IP、子网掩码、网关查看 IP 与子网掩码（ip a）
+1inet 192.168.133.128/24 brd 192.168.133.255 scope global dynamic nop...</p>
         </a>
       
       
         <a class='next' href='/2026/10/03/Linux%E7%BC%96%E8%BE%91%E4%B8%8E%E4%BC%A0%E8%BE%93/'>
           <p class='title'>Linux编辑与传输<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
-          <p class='content'>Linux编辑与传输vim的基本使用
-vim files 打开文件，若不存在则新建i 、a 、o 进入编辑模式Esc 回到命令模式:w :q :wq :q! 保存、退出、保存并退出、不保存强退/...</p>
+          <p class='content'>vim的基本使用
+vim files 打开文件，若不存在则新建i 、a 、o 进入编辑模式Esc 回到命令模式:w :q :wq :q! 保存、退出、保存并退出、不保存强退/keyword 搜索...</p>
         </a>
       
     </div>
@@ -3228,7 +3241,7 @@ vim files 打开文件，若不存在则新建i 、a 、o 进入编辑模式Esc 
 
 
   <div class='content'>
-    <widget class="widget-wrapper recent post-list"><div class="widget-body fs14"><a class="item title" href="/2026/10/13/LInux%E6%96%B9%E6%B3%95%E3%80%81%E5%8F%82%E6%95%B0%E4%B8%8E%E7%8A%B6%E6%80%81/"><span class="title">Linux方法、参数与状态</span></a><a class="item title" href="/2026/10/11/LinuxHTTP%E6%8A%A5%E6%96%87/"><span class="title">LinuxHTTP报文</span></a><a class="item title" href="/2026/10/09/Linux%E6%8A%93%E5%8C%85/"><span class="title">Linux抓包</span></a><a class="item title" href="/2026/10/08/Linux%E7%AB%AF%E5%8F%A3%E4%B8%8E%E6%9C%8D%E5%8A%A1/"><span class="title">Linux端口与服务</span></a><a class="item title" href="/2026/10/05/Linux%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E4%B8%8E%E5%AD%90%E7%BD%91/"><span class="title">Linux网络配置与子网</span></a><a class="item title" href="/2026/10/04/Linux%E6%9C%8D%E5%8A%A1%E4%B8%8E%E8%BF%9B%E7%A8%8B/"><span class="title">Linux服务与进程</span></a><a class="item title" href="/2026/10/03/Linux%E7%BC%96%E8%BE%91%E4%B8%8E%E4%BC%A0%E8%BE%93/"><span class="title">Linux编辑与传输</span></a><a class="item title" href="/2026/10/01/Linux%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86/"><span class="title">Linux文本处理</span></a><a class="item title" href="/2026/09/30/Linux%E7%AE%A1%E9%81%93%E4%B8%8E%E9%87%8D%E5%AE%9A%E5%90%91/"><span class="title">Linux管道与重定向</span></a><a class="item title" href="/2026/09/29/Linux%E6%9D%83%E9%99%90%E4%B8%8E%E7%94%A8%E6%88%B7/"><span class="title">Linux权限与用户</span></a></div></widget>
+    <widget class="widget-wrapper recent post-list"><div class="widget-body fs14"><a class="item title" href="/2026/10/05/Linux%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E4%B8%8E%E5%AD%90%E7%BD%91/"><span class="title">Linux网络配置与子网</span></a><a class="item title" href="/2026/09/30/Linux%E7%AE%A1%E9%81%93%E4%B8%8E%E9%87%8D%E5%AE%9A%E5%90%91/"><span class="title">Linux管道与重定向</span></a><a class="item title" href="/2026/10/04/Linux%E6%9C%8D%E5%8A%A1%E4%B8%8E%E8%BF%9B%E7%A8%8B/"><span class="title">Linux服务与进程</span></a><a class="item title" href="/2026/10/08/Linux%E7%AB%AF%E5%8F%A3%E4%B8%8E%E6%9C%8D%E5%8A%A1/"><span class="title">Linux端口与服务</span></a><a class="item title" href="/2026/10/01/Linux%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86/"><span class="title">Linux文本处理</span></a><a class="item title" href="/2026/10/09/Linux%E6%8A%93%E5%8C%85/"><span class="title">Linux抓包</span></a><a class="item title" href="/2026/10/11/LinuxHTTP%E6%8A%A5%E6%96%87/"><span class="title">LinuxHTTP报文</span></a><a class="item title" href="/2026/10/13/LInux%E6%96%B9%E6%B3%95%E3%80%81%E5%8F%82%E6%95%B0%E4%B8%8E%E7%8A%B6%E6%80%81/"><span class="title">Linux方法、参数与状态</span></a><a class="item title" href="/2026/09/23/%E9%99%87%E5%89%91%E6%9D%AF2021webshell/"><span class="title">陇剑杯2021webshell</span></a><a class="item title" href="/2026/09/22/%E7%AC%AC%E4%BA%94%E7%A9%BA%E9%97%B42021WebFTP/"><span class="title">第五空间2021WebFTP</span></a></div></widget>
   </div>
 </section>
 
@@ -3253,7 +3266,7 @@ vim files 打开文件，若不存在则新建i 、a 、o 进入编辑模式Esc 
 
 
     <div class='content'>
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%8D%E5%8A%A1"><span class="toc-text">服务</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9B%E7%A8%8B"><span class="toc-text">进程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ps-aux-grep-ssh"><span class="toc-text">ps aux | grep ssh</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#pgrep-ssh"><span class="toc-text">pgrep ssh</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#top"><span class="toc-text">top</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AB%AF%E5%8F%A3"><span class="toc-text">端口</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ss-tulnp"><span class="toc-text">ss -tulnp</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ss-tlnp-grep-22"><span class="toc-text">ss -tlnp | grep 22</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%A5%E5%85%85%EF%BC%88%E6%97%A7%E5%91%BD%E4%BB%A4%EF%BC%89"><span class="toc-text">补充（旧命令）</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%8D%E5%8A%A1"><span class="toc-text">服务</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9B%E7%A8%8B"><span class="toc-text">进程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ps-%E6%9F%A5%E7%9C%8B%E5%85%A8%E9%83%A8%E8%BF%9B%E7%A8%8B%E5%B9%B6%E8%BF%87%E6%BB%A4"><span class="toc-text">ps 查看全部进程并过滤</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#pgrep-%E5%8F%AA%E8%BE%93%E5%87%BA-PID"><span class="toc-text">pgrep 只输出 PID</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#top-%E5%8A%A8%E6%80%81%E7%9B%91%E6%8E%A7"><span class="toc-text">top 动态监控</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AB%AF%E5%8F%A3"><span class="toc-text">端口</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ss-%E6%9F%A5%E7%9C%8B%E7%9B%91%E5%90%AC%E7%AB%AF%E5%8F%A3"><span class="toc-text">ss 查看监听端口</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ss-%E8%BF%87%E6%BB%A4%E6%8C%87%E5%AE%9A%E7%AB%AF%E5%8F%A3"><span class="toc-text">ss 过滤指定端口</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%A5%E5%85%85%EF%BC%88%E6%97%A7%E5%91%BD%E4%BB%A4%EF%BC%89"><span class="toc-text">补充（旧命令）</span></a></li></ol></li></ol>
     </div>
   </section>
 
